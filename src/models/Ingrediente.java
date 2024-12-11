@@ -26,6 +26,7 @@ public class Ingrediente extends BaseModel{
     private BigDecimal id_proveedor;
     private final transient PropertyChangeSupport propertyChangeSupport = new java.beans.PropertyChangeSupport(this);
 
+    private int SoyIker;
     /**
      * Método para obtener un id_ingrediente de un objeto Ingrediente.
      * @return the id_ingrediente
